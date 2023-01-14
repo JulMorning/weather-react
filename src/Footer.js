@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
       <small>
         <a
-          href="https://github.com/JulMorning/Vanilla-Weather-Forcast"
+          href="https://github.com/JulMorning/weather-react"
           target="_blank"
           rel="noreferrer"
         >
