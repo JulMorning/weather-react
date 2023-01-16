@@ -8,7 +8,7 @@ export default function Overview() {
     description: "snow",
   };
   return (
-    <div className="city">
+    <div className="city" mt-5>
       <h1>{overview.city}</h1>
       <div className="country">{overview.country}</div>
       <ul>

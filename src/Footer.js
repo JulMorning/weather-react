@@ -12,7 +12,7 @@ export default function Footer() {
         >
           Open-source code
         </a>
-        by Yuliia Klan © 2022
+        {""}by Yuliia Klan © 2022
       </small>
     </div>
   );
