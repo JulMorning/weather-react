@@ -3,6 +3,7 @@ import Search from "./Search";
 import Overview from "./Overview";
 import CurrentWeatherInfo from "./CurrentWeatherInfo";
 import Footer from "./Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
