@@ -1,7 +1,5 @@
 import "./App.css";
-import Search from "./Search";
-import Overview from "./Overview";
-import CurrentWeatherInfo from "./CurrentWeatherInfo";
+import WeatherInfo from "./WeatherInfo";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -11,10 +9,7 @@ function App() {
       <div className="container">
         <div className="wrapper">
           <div className="weather-app-card">
-            <Search />
-            <Overview />
-            <CurrentWeatherInfo />
-            <div className="weather-forecast" id="forecast"></div>
+            <WeatherInfo />
           </div>
           <Footer />
         </div>
