@@ -14,13 +14,12 @@ export default function Weather(props) {
       country: response.data.country,
       temperature: response.data.temperature.current,
       date: new Date(response.data.time * 1000),
-      iconUrl: response.data.condition.icon_url,
+      icon: response.data.condition.icon,
       description: response.data.condition.description,
       realFeel: response.data.temperature.feels_like,
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
     });
-    console.log(response);
   }
 
   function search() {

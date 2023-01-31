@@ -59,10 +59,9 @@ a {
   list-style: none;
 }
 
-.weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.weather-temperature canvas {
+  margin-right: 10px;
+ 
 }
 
 .currentTemperature {
