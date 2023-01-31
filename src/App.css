@@ -2,7 +2,7 @@
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --main-color:#0c151c;
+  --main-color: #0c151c;
   --accent-color: #4ac5c5;
   --secondary-main-color: #666464;
 }
@@ -32,8 +32,8 @@ a {
 }
 .strong {
   color: var(--accent-color);
-  font-weight: 400;}
-
+  font-weight: 400;
+}
 
 .wrapper {
   max-width: 600px;
@@ -61,7 +61,6 @@ a {
 
 .weather-temperature canvas {
   margin-right: 10px;
- 
 }
 
 .currentTemperature {
@@ -70,10 +69,13 @@ a {
   font-weight: 400;
   line-height: 1;
 }
-.units {
+.unit {
   position: relative;
   top: -34px;
   font-size: 16px;
+}
+.unit a {
+  text-decoration: none;
 }
 .weatherInfo li strong {
   color: var(--accent-color);
