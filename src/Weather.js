@@ -22,6 +22,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
     });
+    console.log(response.data)
   }
 
   function search() {
