@@ -3,16 +3,25 @@ import "./App.css";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="Footer mt-2">
       <small>
+        This project was coded by Yuliia Klan and is
         <a
           href="https://github.com/JulMorning/weather-react"
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code
+          {" "}
+          open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://admirable-boba-79f3a5.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
         </a>
-        {" "}by Yuliia Klan © 2022
       </small>
     </div>
   );

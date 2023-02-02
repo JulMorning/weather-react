@@ -8,29 +8,31 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <h1 className="mt-3 mb-0">{props.data.city}</h1>
       <p className="country">{props.data.country}</p>
-      <ul className="overview">
-        <li>
-          <FormattedDate date={props.data.date} />
-        </li>
-        <li className="text-capitalize"> {props.data.description}</li>
-      </ul>
+
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <div className="d-flex weather-temperature">
             <WeatherIcon code={props.data.icon} size={64} />
             <div>
               <WeatherTemp celsius={props.data.temperature} />
-              
             </div>
           </div>
         </div>
+        <div className="col-sm-4">
+          <ul className="overview">
+            <li>
+              <FormattedDate date={props.data.date} />
+            </li>
+            <li className="text-capitalize"> {props.data.description}</li>
+          </ul>
+        </div>
 
-        <div className="col-sm-6">
+        <div className="col-sm-4">
           <ul>
             <li>
               Real feel:
               <strong className="strong">
-                <span> {Math.round(props.data.realFeel)}º</span>
+                <span> {Math.round(props.data.realFeel)}˚</span>
               </strong>
             </li>
             <li>
