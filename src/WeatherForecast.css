@@ -1,21 +1,21 @@
 .WeatherForecast {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .WeatherForecast-day {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   color: var(--main-color);
 }
 .WeatherForecast-temp-max {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--main-color);
 }
 .WeatherForecast-temp-min {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   margin-left: 5px;
-  color: var(--secondary-main-color);
+ color: var(--main-color);
 }
